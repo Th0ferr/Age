@@ -1,0 +1,14 @@
+algoritmo "Age"
+
+var
+idade:Inteiro
+
+inicio
+      escreva ("informe a sua idade: ")
+      leia(idade)
+      se idade >= 18 entao
+         escreva("Você é Maior de Idade")
+      Senao
+         escreva("Você é Menor de Idade")
+      Fimse
+fimalgoritmo 
